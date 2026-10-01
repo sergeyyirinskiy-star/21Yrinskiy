@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Основная тема приложения -->
+    <style name="Theme.20Yrinskiy"
+        parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <!-- Тема загрузочного экрана -->
+    <style name="Theme.20Yrinskiy.Starting"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            @color/white
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/ic_launcher_foreground
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.20Yrinskiy
+        </item>
+
+    </style>
+
+</resources>
